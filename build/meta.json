@@ -1,0 +1,49 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "cache--hello": {
+      "name": "Hello",
+      "levels": [
+        "Cache"
+      ],
+      "locStart": 1,
+      "locEnd": 1,
+      "filePath": "src/cache.stories.tsx",
+      "meta": {}
+    },
+    "cache--button": {
+      "name": "Button",
+      "levels": [
+        "Cache"
+      ],
+      "locStart": 2,
+      "locEnd": 2,
+      "filePath": "src/cache.stories.tsx",
+      "meta": {}
+    },
+    "test--hello": {
+      "name": "Hello",
+      "levels": [
+        "Test"
+      ],
+      "locStart": 1,
+      "locEnd": 1,
+      "filePath": "src/test.stories.tsx",
+      "meta": {}
+    },
+    "test--button": {
+      "name": "Button",
+      "levels": [
+        "Test"
+      ],
+      "locStart": 2,
+      "locEnd": 2,
+      "filePath": "src/test.stories.tsx",
+      "meta": {}
+    }
+  }
+}
