@@ -7,7 +7,6 @@ function Home() {
 	return (
 		<div className={classes.red}>
 			<h1>Home</h1>
-			<Outlet />
 		</div>
 	);
 }

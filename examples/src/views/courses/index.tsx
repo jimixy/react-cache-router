@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 interface PropsType {}
 
@@ -20,6 +20,7 @@ const Courses: React.FC<PropsType> = (props) => {
 					</li>
 				</ul>
 			</nav>
+			<Outlet />
 		</div>
 	);
 };
